@@ -1,0 +1,61 @@
+{
+  "class": "CS-4A",
+  "semester": "4",
+  "subjects": [
+    { "id": "M4", "name": "Mathematics IV" },
+    { "id": "DS", "name": "Data Structures" },
+    { "id": "DBMS", "name": "Database Systems" },
+    { "id": "OS", "name": "Operating Systems" },
+    { "id": "DAA", "name": "Design & Analysis of Algorithms" }
+  ],
+  "students": [
+    {
+      "id": "S001",
+      "name": "Aarav Sharma",
+      "rollNo": "20CS001",
+      "results": { "M4": 78, "DS": 85, "DBMS": 72, "OS": 88, "DAA": 81 }
+    },
+    {
+      "id": "S002",
+      "name": "Priya Patel",
+      "rollNo": "20CS002",
+      "results": { "M4": 92, "DS": 88, "DBMS": 95, "OS": 90, "DAA": 87 }
+    },
+    {
+      "id": "S003",
+      "name": "Rahul Verma",
+      "rollNo": "20CS003",
+      "results": { "M4": 65, "DS": 58, "DBMS": 62, "OS": 55, "DAA": 60 }
+    },
+    {
+      "id": "S004",
+      "name": "Ananya Singh",
+      "rollNo": "20CS004",
+      "results": { "M4": 88, "DS": 82, "DBMS": 79, "OS": 85, "DAA": 90 }
+    },
+    {
+      "id": "S005",
+      "name": "Vikram Reddy",
+      "rollNo": "20CS005",
+      "results": { "M4": 72, "DS": 75, "DBMS": 68, "OS": 70, "DAA": 74 }
+    },
+    {
+      "id": "S006",
+      "name": "Kavya Nair",
+      "rollNo": "20CS006",
+      "results": { "M4": 95, "DS": 91, "DBMS": 93, "OS": 89, "DAA": 92 }
+    },
+    {
+      "id": "S007",
+      "name": "Arjun Kumar",
+      "rollNo": "20CS007",
+      "results": { "M4": 58, "DS": 52, "DBMS": 55, "OS": 50, "DAA": 48 }
+    },
+    {
+      "id": "S008",
+      "name": "Isha Gupta",
+      "rollNo": "20CS008",
+      "results": { "M4": 82, "DS": 79, "DBMS": 84, "OS": 80, "DAA": 86 }
+    }
+  ]
+}

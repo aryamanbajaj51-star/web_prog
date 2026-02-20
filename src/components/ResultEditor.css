@@ -1,0 +1,72 @@
+.result-editor {
+  margin-top: 0.5rem;
+}
+
+.result-editor-hint {
+  color: #9aa0a6;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.result-editor-table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.result-editor-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.result-editor-table th,
+.result-editor-table td {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.result-editor-table th {
+  color: #b8bcc4;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.result-editor-table td {
+  color: #e8eaed;
+}
+
+.result-editor-cell {
+  display: inline-block;
+  min-width: 2.5rem;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #e8eaed;
+  cursor: pointer;
+  font-size: inherit;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.result-editor-cell:hover {
+  background: rgba(109, 140, 255, 0.15);
+  border-color: rgba(109, 140, 255, 0.4);
+}
+
+.result-editor-table input[type="number"] {
+  width: 4rem;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #6d8cff;
+  border-radius: 6px;
+  background: #252a3a;
+  color: #e8eaed;
+  font-size: inherit;
+}
+
+.result-editor-table input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(109, 140, 255, 0.3);
+}
